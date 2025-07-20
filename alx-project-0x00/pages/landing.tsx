@@ -7,7 +7,7 @@ const Landing: React.FC =  () => {
       <h1 className=" text-xl font-extralight mb-8">Landing Page</h1>
       
       {/* Multiple Card instances */}
-      <div className="mb-8">
+      <div className="mb-8 bg-gray-50 p-6 rounded-lg">
         <h2 className="text-lg font-medium mb-4">Property Cards</h2>
         <div className="flex gap-6 flex-wrap">
           <Card />
@@ -16,12 +16,12 @@ const Landing: React.FC =  () => {
       </div>
 
       {/* Multiple Button instances with different sizes and shapes */}
-      <div className="mb-8">
+      <div className="mb-8 bg-white border p-6 rounded-lg shadow-sm">
         <h2 className="text-lg font-medium mb-4">Button Variations</h2>
         <div className="space-y-4">
           
           {/* Small buttons */}
-          <div className="flex gap-4 items-center flex-wrap">
+          <div className="flex gap-4 items-center flex-wrap bg-gray-50 p-4 rounded-lg">
             <span className="font-medium">Small:</span>
             <Button title="Small Rounded SM" size="small" shape="rounded-sm" />
             <Button title="Small Rounded MD" size="small" shape="rounded-md" />
@@ -29,7 +29,7 @@ const Landing: React.FC =  () => {
           </div>
 
           {/* Medium buttons */}
-          <div className="flex gap-4 items-center flex-wrap">
+          <div className="flex gap-4 items-center flex-wrap bg-gray-50 p-4 rounded-lg">
             <span className="font-medium">Medium:</span>
             <Button title="Medium Rounded SM" size="medium" shape="rounded-sm" />
             <Button title="Medium Rounded MD" size="medium" shape="rounded-md" />
@@ -37,7 +37,7 @@ const Landing: React.FC =  () => {
           </div>
 
           {/* Large buttons */}
-          <div className="flex gap-4 items-center flex-wrap">
+          <div className="flex gap-4 items-center flex-wrap bg-gray-50 p-4 rounded-lg">
             <span className="font-medium">Large:</span>
             <Button title="Large Rounded SM" size="large" shape="rounded-sm" />
             <Button title="Large Rounded MD" size="large" shape="rounded-md" />

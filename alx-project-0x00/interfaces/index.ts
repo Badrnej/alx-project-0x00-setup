@@ -8,3 +8,7 @@ export interface ButtonProps {
   shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full';
   className?: string;
 }
+
+export interface CardProps {
+  styles: string;
+}

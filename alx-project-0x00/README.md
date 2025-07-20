@@ -78,6 +78,7 @@ All components are fully typed with TypeScript interfaces defined in `interfaces
 
 - `PillProps` - Interface for Pill component props
 - `ButtonProps` - Interface for Button component props with optional variants
+- `CardProps` - Interface for Card component with styles property
 
 ## Learning Objectives Covered
 
