@@ -1,0 +1,10 @@
+<svg width="379" height="300" viewBox="0 0 379 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="379" height="300" fill="#E5E7EB"/>
+<path d="M189.5 100L250 150H130L189.5 100Z" fill="#6B7280"/>
+<rect x="150" y="150" width="80" height="100" fill="#9CA3AF"/>
+<rect x="160" y="180" width="15" height="25" fill="#374151"/>
+<rect x="185" y="180" width="15" height="25" fill="#374151"/>
+<rect x="210" y="180" width="15" height="25" fill="#374151"/>
+<rect x="170" y="220" width="25" height="30" fill="#D1D5DB"/>
+<text x="189.5" y="280" text-anchor="middle" fill="#6B7280" font-family="Arial" font-size="12">Sample House Image</text>
+</svg>
